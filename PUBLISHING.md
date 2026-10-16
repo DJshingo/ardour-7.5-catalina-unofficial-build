@@ -2,6 +2,15 @@
 
 This is a **documentation-and-patch** repository. It contains **no app binary or third-party libraries**.
 
+**Publication status (2026-10-16):** The publisher approved the initial 24-file
+text/patch package in Step 166 and published it to the public GitHub repository
+[`DJshingo/ardour-7.5-catalina-unofficial-build`](https://github.com/DJshingo/ardour-7.5-catalina-unofficial-build)
+in Step 169. Step 170 verified anonymous access, the `main` commit and
+24-file tree; Step 171-A updated the README; and Step 172 verified the About
+metadata and eight topics. **The first-publication procedure below is retained
+as a historical guide, not as an outstanding task or a reason to recreate the
+repository.** Binary release clearance remains separate and incomplete.
+
 ## Before the first public commit
 
 1. Review `README.md`, `BUILD.md`, `PATCHES.md`, `THIRD_PARTY_LICENSES.md` and `RELEASE_CHECKLIST.md`.
@@ -52,12 +61,24 @@ git commit -m "Document unofficial Ardour 7.5 Intel Catalina build"
 
 Create a GitHub repository with a matching name, choose **not** to auto-add
 another README or license, and follow the remote-setup commands GitHub
-displays. No GitHub account or destination has been supplied and no repository
-has been created by this project.
+displays. At the time this first-publication guide was written, no GitHub account or
+repository had been supplied. The actual repository was subsequently created
+before Step 169 and first pushed in Step 169 (2026-10-16); these initial-setup commands are
+**not** instructions to reinitialize or recreate the existing public repository.
 
 ## Repository classification
 
-This is **ready for owner review**. The local source SHA and file-level patch provenance are recorded, but upstream tag matching is verified from builder-supplied Git output, while original clone provenance, independent rights-holder verification and complete build reproducibility have **not** all been established. The MIT license, collective attribution, and the publisher's Step 163 **self-attestation** are documented, but third-party rights if applicable and the final human staged-content approval have not been independently established; see [`COPYRIGHT_REVIEW.md`](COPYRIGHT_REVIEW.md). Do not label it as a verified reproducible binary build. Complete the open documentation-only checks in `RELEASE_CHECKLIST.md` before publishing.
+The **documentation-and-patch repository is public** (Step 169), with its
+contents reviewed and approved by the publisher in Step 166 and publicly
+verified in Steps 170-172. This completed human approval is distinct from an
+**independent legal determination** of ownership or applicable third-party,
+employer or co-author rights. See [`COPYRIGHT_REVIEW.md`](COPYRIGHT_REVIEW.md)
+and [`RELEASE_CHECKLIST.md`](RELEASE_CHECKLIST.md) for the historical gates and
+remaining conditional checks. The local source SHA and file-level patch match
+are recorded, but original clone provenance, cryptographic tag authenticity,
+independent rights verification and a clean-machine rebuild are **not** all
+established. **Do not describe this as a verified reproducible binary build or
+as a cleared binary release.**
 
 ## Upstream contribution policy
 

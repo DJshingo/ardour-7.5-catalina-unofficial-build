@@ -237,3 +237,43 @@ Passing these regression tests does **not** amount to a full Ardour rebuild,
 CoreAudio verification, binary redistribution clearance, or final public
 publication approval. The exact staged package must still be examined and
 approved by the publisher before a public commit.
+
+## Steps 166-173-A public GitHub publication and documentation reconciliation — 2026-10-16
+
+**This is a subsequent addendum.** Earlier findings (including statements
+that publication was pending) describe the status on their original dates;
+they have not been erased or retroactively relabeled.
+
+| Step | Builder-reported outcome | Scope |
+| --- | --- | --- |
+| 166 | Publisher approved the exact initial 24 text/patch files | Human public-content decision, not independent legal audit |
+| 169 | Initial `main` commit `e0f7b2e8e740a62153b3e8a48a039c530f05728a` pushed | GitHub publication |
+| 170 | Public/anonymous HTTP 200, GitHub `main` SHA, 24-file tree and README/license/patch match | Remote content checks |
+| 171-A | README status corrected, 15 tests passed; second `main` commit `8dd0d74285e2beadd6879665ca177daa82110ab8` pushed | Document content correction |
+| 172 | Description, blank Website and all eight Topics verified; Git tree unchanged | Repository About metadata |
+| 173 | Cross-document audit found five historical/current-status presentation issues | Findings F173-01 to F173-05 |
+
+### Step 173-A changes prepared after the above published commit
+
+| Finding | Reconciliation in this reviewed package |
+| --- | --- |
+| F173-01 | `PUBLISHING.md`: public status and actual repository added; historical first-commit instructions preserved |
+| F173-02 | `LICENSE_SCOPE.md`: Step 166 public-content approval distinguished from independent rights verification |
+| F173-03 | `RELEASE_CHECKLIST.md`: original gates separated from the later public documentation status; binary gates remain unchecked |
+| F173-04 | `BUILD_RECORD.md`, `GITHUB_SETUP.md`, `COPYRIGHT_REVIEW.md`: dated public-status addenda clarify older descriptions |
+| F173-05 | `REVIEW_REPORT.md`: this addendum consolidates the user-supplied Step 166-173 outcomes |
+
+The Step 173-A revision affects **seven documentation files**; the README,
+LICENSE, GPL reference, GTK Quartz patch, inventory data, helper scripts and
+tests are intended to remain byte-for-byte unchanged. This package is
+**locally prepared for review**: its new documentation corrections are **not
+claimed as committed or pushed** by Steps 169-172, which predate them.
+The final local link, test and change-scope checks are recorded in the
+separate Step 173-A review summary, not represented here as a builder-Mac run.
+
+**Outstanding boundaries:** independently verify any applicable copyright,
+employer/co-author permissions; complete a proper third-party/binary release
+audit before redistributing `.app`/DMG/ZIP binaries; test CoreAudio playback
+and recording, plugins and clean-Mac behavior separately; retain the source
+clone/tag authenticity and full reproducibility limitations. Public source
+publication is not proof that these activities were completed.

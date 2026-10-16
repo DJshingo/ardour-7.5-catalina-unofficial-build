@@ -4,9 +4,18 @@ This guide prepares a **documentation-and-patch-only** local Git repository for 
 unofficial Ardour 7.5 Intel macOS Catalina build. It does not distribute the
 application, its GTK build, bundled dependencies, DMG, or private machine logs.
 
+**Historical setup guide — publication completed 2026-10-16.** Steps 166 and
+169-172 document the publisher's approval, public GitHub push,
+post-publication README update, and metadata confirmation. The existing
+repository is Public at
+[`DJshingo/ardour-7.5-catalina-unofficial-build`](https://github.com/DJshingo/ardour-7.5-catalina-unofficial-build).
+The initial *Private* repository option below was only a recommendation; do
+not infer that this was the actual creation method, and do **not** rerun
+initialization/creation commands in the existing repository.
+
 **Suggested repository:** `ardour-7.5-catalina-unofficial-build`
 **Initial branch:** `main`
-**Recommended initial GitHub visibility:** **Private**
+**Historical first-time recommendation (not the current setting):** **Private**
 
 ## Prerequisites
 
@@ -14,8 +23,10 @@ application, its GTK build, bundled dependencies, DMG, or private machine logs.
 - Use `git` and Python 3 on the target Mac; do not assume `gh` (GitHub CLI) is installed.
 - Read [`COPYRIGHT_REVIEW.md`](COPYRIGHT_REVIEW.md). The publisher selected the
   collective MIT notice and **self-attested to ownership and MIT authority in
-  Step 163**. This has not been independently verified. Final staged-content,
-  privacy and any applicable third-party-rights checks remain pending.
+  Step 163**. This has not been independently verified. The exact initial
+  staged text/patch package was subsequently approved in Step 166 and published
+  in Steps 169-170; **publication approval is not pending**. Any applicable
+  third-party, employer or co-author rights remain subject to review.
 - This is a record of the successful local build, **not** a reproducible one-command build or a binary release.
 
 ## Catalina path handling — Step 161-A
@@ -95,7 +106,7 @@ git commit -m "Document unofficial Ardour 7.5 Catalina build"
 If Git requires author configuration, set the identity you **actually wish to
 publish** using normal Git settings; do not commit credentials.
 
-## 4. Create a PRIVATE GitHub repository — optional, later
+## 4. Historical option: create a private GitHub repository (first setup only)
 
 If GitHub CLI is already installed and authenticated:
 
@@ -116,7 +127,7 @@ the remote URL displayed by GitHub (`git remote add origin <URL>` followed by
 `git push -u origin main`). Do not claim any remote repository exists until
 GitHub has confirmed its creation.
 
-## 5. Switch to Public only after publication approval
+## 5. Historical option: switch to Public after approval
 
 Review the GitHub Settings → General → Danger Zone visibility controls; do not
 change to Public until all documentation/publication checks are signed off.

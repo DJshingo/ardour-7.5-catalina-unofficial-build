@@ -64,5 +64,30 @@ The original logs contained a local macOS username and absolute home-directory p
 
 - Original English documentation, helper scripts, tests and independently prepared inventory metadata: **MIT**; see `LICENSE` and `LICENSE_SCOPE.md`.
 - Ardour-derived and byte-for-byte verified GTK Quartz patch: **GPL-2.0-or-later**, retaining upstream terms; the patch itself has not been modified.
-- **Historical context:** At Step 160-C, the publisher had not yet confirmed ownership or MIT licensing authority. At Step 160-E, the collective attribution was selected; at Step 163, the publisher **self-attested** to ownership of and MIT authority for independently prepared materials (see `COPYRIGHT_REVIEW.md`). This self-attestation is not independent legal verification. Applicable third-party, employer or client rights (if any), and the publisher's final staged-file/privacy review, remain open.
+- **Historical context:** At Step 160-C, ownership and MIT authority had not
+yet been affirmed; Step 160-E adopted the collective attribution, and Step 163
+recorded the publisher's **self-attestation** for independently prepared
+material (see `COPYRIGHT_REVIEW.md`). Step 166 subsequently approved the exact
+24-file public text/patch package, and Steps 169-172 confirmed its publication
+and metadata. **Staged-file approval is no longer pending.** The declaration
+is not independent legal verification; applicable third-party, employer or
+client rights (if any) still require proper treatment.
 - The license selection does not authorize public redistribution of the Mac `.app` or any compiled third-party dependencies.
+
+## Documentation repository publication addendum — 2026-10-16
+
+- **Step 166:** publisher authorized the reviewed 24 text/patch files for public
+  GitHub publication (not distribution of the compiled application).
+- **Step 169:** initial `main` commit
+  `e0f7b2e8e740a62153b3e8a48a039c530f05728a` pushed to the public
+  repository.
+- **Step 170:** anonymous HTTP 200, Public repository setting, `main` SHA,
+  24-file paths, and README/license/patch contents were verified.
+- **Step 171-A:** README publication-status wording corrected and pushed;
+  `main` advanced to `8dd0d74285e2beadd6879665ca177daa82110ab8`.
+- **Step 172:** Description, blank Website, eight Topics, and unchanged
+  `main` SHA checked through the public GitHub API.
+
+These observations are based on the builder's successful terminal logs.
+They do not extend to CoreAudio playback/recording, a clean-machine rebuild,
+independent rights-holder verification, or permission to distribute binaries.

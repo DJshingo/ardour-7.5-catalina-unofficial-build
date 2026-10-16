@@ -16,7 +16,14 @@ Ardour's source notices generally grant reuse under **GNU GPL version 2 or (at t
 
 ## Copyright-holder attribution
 
-The publisher **formally adopted** the collective notice **“Contributors to the Ardour 7.5 Catalina Build Notes”** on 2026-10-14 (Step 160-E). The same wording appears in the root `LICENSE`. This records the publisher's chosen attribution, **not independently verified evidence** of the identity or authorization of every rights holder. In Step 163 on 2026-10-15, the publisher explicitly stated that they own and may distribute the **independently prepared** content under MIT, and retained the selected collective public credit. This is a publisher **self-attestation, not independently verified ownership**. If any other contributor or employer holds relevant rights, obtain their authorization or amend/remove affected materials before publication. The final staged-file content/privacy approval is still pending. MIT selection does not relicense third-party content. See [`COPYRIGHT_REVIEW.md`](COPYRIGHT_REVIEW.md).
+The publisher **formally adopted** the collective notice **“Contributors to the Ardour 7.5 Catalina Build Notes”** on 2026-10-14 (Step 160-E). The same wording appears in the root `LICENSE`. This records the publisher's chosen attribution, **not independently verified evidence** of the identity or authorization of every rights holder. In Step 163 on 2026-10-15, the publisher explicitly stated that they own and may distribute the **independently prepared** content under MIT, and retained the selected collective public credit. This is a publisher **self-attestation, not independently verified ownership**. If any other contributor or employer holds relevant rights, obtain their
+authorization or promptly amend/remove affected published materials. The
+publisher approved the exact 24-file initial public package in Step 166
+(2026-10-16); Step 169 published it, and Step 170 verified public visibility
+and content correspondence. **That publication approval is complete, but it
+is not an independent audit of underlying ownership, employment assignments,
+or other applicable rights.** MIT selection does not relicense third-party
+content. See [`COPYRIGHT_REVIEW.md`](COPYRIGHT_REVIEW.md).
 
 ## Policy for reuse and contributions
 

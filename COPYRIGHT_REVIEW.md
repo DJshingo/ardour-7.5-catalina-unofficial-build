@@ -1,6 +1,16 @@
 # Copyright and publisher authorization review
 
-**Review status (2026-10-15, Step 163-A): PUBLISHER SELF-ATTESTATION OF OWNERSHIP AND MIT LICENSING AUTHORITY RECORDED; FINAL STAGED-CONTENT AND PRIVACY SIGN-OFF STILL OPEN.** The publisher selected the collective copyright notice in Step 160-E and then chose the affirmative ownership/authorization option in Step 163. This records the publisher's statement, **not independent verification of legal title, assignments, or third-party permissions**. No public GitHub repository was created during this review.
+**Historical review status (2026-10-15, Step 163-A): PUBLISHER SELF-ATTESTATION OF OWNERSHIP AND MIT LICENSING AUTHORITY RECORDED; FINAL STAGED-CONTENT AND PRIVACY SIGN-OFF STILL OPEN AT THAT TIME.** The publisher selected the collective copyright notice in Step 160-E and then chose the affirmative ownership/authorization option in Step 163. This records the publisher's statement, **not independent verification of legal title, assignments, or third-party permissions**. No public GitHub repository was created *during that review*.
+
+**Subsequent publication status (2026-10-16):** In Step 166 the publisher
+explicitly approved the exact 24-file initial text/patch package. Steps 169-170
+confirmed public GitHub publication and content consistency; Step 171-A updated
+the README and Step 172 verified metadata. The checkboxes and decision below
+are a **historical Step 163-A snapshot** and should not be read as the current
+state of public GitHub publication. The completed publisher approval is not an
+independent audit of legal ownership, employment agreements, or third-party
+permissions. If new rights concerns arise, remediate affected published files.
+**Binary distribution remains uncleared.**
 
 ## Current MIT notice
 
