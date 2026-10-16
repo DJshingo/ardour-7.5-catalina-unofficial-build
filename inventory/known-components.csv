@@ -1,0 +1,23 @@
+component,recorded_version,role,license_lead_not_final,evidence,required_action
+Ardour,7.5.0,main application,GPL (verify exact 7.5 source notices),source + patch,Local HEAD recorded; verify upstream origin / COPYING
+Boost,1.76.0,header dependency,unverified,build only,Verify exact license
+TagLib,1.12,direct dependency,LGPL/MPL (upstream description),observed installed,Review exact COPYING
+Vamp SDK,2.10,direct dependency,BSD-style (upstream description),observed installed,Review exact COPYING
+Vamp Host SDK,2.10,direct dependency,BSD-style (upstream description),observed installed,Review exact COPYING
+Rubber Band,3.3.0,direct dependency,unverified,observed installed,Review exact COPYING
+FFTW3 single,3.3.10,direct dependency,unverified,observed installed,Review exact COPYING
+FFTW3 float threads,3.3.10,additional library for link,unverified,observed installed,Review exact COPYING
+aubio,0.4.9,direct dependency,unverified,observed installed,Review exact COPYING
+libsamplerate,0.2.2,direct dependency,unverified,observed installed,Review exact COPYING
+LV2,1.18.10,direct dependency,unverified,observed installed,Review exact COPYING
+Serd,0.30.16,direct dependency,unverified,observed installed,Review exact COPYING
+Sord,0.16.14,direct dependency,unverified,observed installed,Review exact COPYING
+Sratom,0.6.14,direct dependency,unverified,observed installed,Review exact COPYING
+Lilv,0.24.20,direct dependency,unverified,observed installed,Review exact COPYING
+Ogg,1.3.5,direct dependency,unverified,observed installed,Review exact COPYING
+FLAC,1.4.3,direct dependency,unverified,observed installed,Review exact COPYING
+libsndfile,1.2.2,direct dependency,unverified,observed installed,Review exact COPYING
+GNU gettext/libintl,0.21,runtime/build dependency,unverified,observed installed,Review exact COPYING
+GTK2/Quartz,not recorded,GUI,unverified,observed linked,Record source version and COPYING
+gtkmm/glibmm/GLib/Pango/Cairo/Freetype,not recorded,transitive GUI,unverified,observed linked,Inventory all packaged libraries and notices
+Ardour fonts/icons/themes/plugins,not recorded,resources,unverified,observed packaged,Inventory actual asset files and notices

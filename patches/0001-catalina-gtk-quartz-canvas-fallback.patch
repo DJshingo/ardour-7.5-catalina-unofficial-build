@@ -1,0 +1,9 @@
+diff --git a/libs/gtkmm2ext/nsglview.mm b/libs/gtkmm2ext/nsglview.mm
+--- a/libs/gtkmm2ext/nsglview.mm
++++ b/libs/gtkmm2ext/nsglview.mm
+@@ -45,4 +45,4 @@
+ #ifndef ARDOUR_CANVAS_NSVIEW_TAG
+-#error NO TAG
++/* No patched GTK Quartz tag: normal Cairo canvas is used. */
+ #define ARDOUR_CANVAS_NSVIEW_TAG 0x0
+ #endif
